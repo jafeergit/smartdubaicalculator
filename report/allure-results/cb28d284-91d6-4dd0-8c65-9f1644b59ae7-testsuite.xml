@@ -1,0 +1,29 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1627902669168' stop='1627902714240'>
+    <name>Calculator Application</name>
+    <title>Calculator Application</title>
+    <test-cases>
+        <test-case start='1627902669168' status='broken' stop='1627902714239'>
+            <name>Perform a subtraction operation</name>
+            <title>Perform a subtraction operation</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='0eb8a423-a54a-47c0-a121-16d4297290a8-attachment.png' type='image/png' size='483080'/>
+            </attachments>
+            <failure>
+                <message>browser.positionClick is not a function</message>
+                <stack-trace>TypeError: browser.positionClick is not a function
+                    at CalcPage.clickCalcButton (/Volumes/jafeer - Data/System/Testing/smarttest/test/pages/calc.page.js:18:17)
+                    at Context.&lt;anonymous> (/Volumes/jafeer - Data/System/Testing/smarttest/test/specs/onlineCalculator.spec.js:9:19)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

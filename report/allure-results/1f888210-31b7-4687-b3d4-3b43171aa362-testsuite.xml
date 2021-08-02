@@ -1,0 +1,29 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1627896532390' stop='1627896576718'>
+    <name>Calculator Application</name>
+    <title>Calculator Application</title>
+    <test-cases>
+        <test-case start='1627896532391' status='broken' stop='1627896576717'>
+            <name>Perform a subtraction operation</name>
+            <title>Perform a subtraction operation</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='00492641-75f2-48ec-b0dd-99bf9cb2ec10-attachment.png' type='image/png' size='467304'/>
+            </attachments>
+            <failure>
+                <message>this.driver.awaitDisplayed is not a function</message>
+                <stack-trace>TypeError: this.driver.awaitDisplayed is not a function
+                    at CalcPage.navigateToIframe (/Volumes/jafeer - Data/System/Testing/smarttest/test/pages/calc.page.js:9:22)
+                    at Context.&lt;anonymous> (/Volumes/jafeer - Data/System/Testing/smarttest/test/specs/onlineCalculator.spec.js:8:19)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

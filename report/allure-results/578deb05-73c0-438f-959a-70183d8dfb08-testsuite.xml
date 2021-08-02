@@ -1,0 +1,30 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1627900806173' stop='1627900850348'>
+    <name>Calculator Application</name>
+    <title>Calculator Application</title>
+    <test-cases>
+        <test-case start='1627900806173' status='broken' stop='1627900850347'>
+            <name>Perform a subtraction operation</name>
+            <title>Perform a subtraction operation</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='65ad43bd-1c40-4ac8-b1e0-a3d6203038f1-attachment.png' type='image/png' size='799214'/>
+            </attachments>
+            <failure>
+                <message>Cannot read property 'click' of null</message>
+                <stack-trace>TypeError: Cannot read property 'click' of null
+                    at Function.moveIntoClick (/Volumes/jafeer - Data/System/Testing/smarttest/support/utils/Driver.Extension.js:17:9)
+                    at CalcPage.clickCalcButton (/Volumes/jafeer - Data/System/Testing/smarttest/test/pages/calc.page.js:14:21)
+                    at Context.&lt;anonymous> (/Volumes/jafeer - Data/System/Testing/smarttest/test/specs/onlineCalculator.spec.js:9:19)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

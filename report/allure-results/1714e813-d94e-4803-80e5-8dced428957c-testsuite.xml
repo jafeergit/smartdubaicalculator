@@ -1,0 +1,30 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1627899615347' stop='1627899659647'>
+    <name>Calculator Application</name>
+    <title>Calculator Application</title>
+    <test-cases>
+        <test-case start='1627899615347' status='broken' stop='1627899659646'>
+            <name>Perform a subtraction operation</name>
+            <title>Perform a subtraction operation</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='4138a8f7-fefb-4aed-8bba-b9e38489fd02-attachment.png' type='image/png' size='599021'/>
+            </attachments>
+            <failure>
+                <message>Cannot read property 'click' of undefined</message>
+                <stack-trace>TypeError: Cannot read property 'click' of undefined
+                    at Function.click (/Volumes/jafeer - Data/System/Testing/smarttest/support/utils/Driver.Extension.js:7:18)
+                    at CalcPage.clickCalcButton (/Volumes/jafeer - Data/System/Testing/smarttest/test/pages/calc.page.js:14:21)
+                    at Context.&lt;anonymous> (/Volumes/jafeer - Data/System/Testing/smarttest/test/specs/onlineCalculator.spec.js:9:19)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

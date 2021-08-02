@@ -1,0 +1,31 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1627898518912' stop='1627898562392'>
+    <name>Calculator Application</name>
+    <title>Calculator Application</title>
+    <test-cases>
+        <test-case start='1627898518913' status='broken' stop='1627898562391'>
+            <name>Perform a subtraction operation</name>
+            <title>Perform a subtraction operation</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>no such window: window was already closed
+                  (Session info: chrome=92.0.4515.107)</message>
+                <stack-trace>no such window: window was already closed
+                  (Session info: chrome=92.0.4515.107)
+                    at $ (/Volumes/jafeer - Data/System/Testing/smarttest/node_modules/@wdio/runner/build/index.js:192:36)
+                    at CalcPage.iFrameval (/Volumes/jafeer - Data/System/Testing/smarttest/test/pages/calc.page.js:5:31)
+                    at CalcPage.navigateToIframe (/Volumes/jafeer - Data/System/Testing/smarttest/test/pages/calc.page.js:9:44)
+                    at Context.&lt;anonymous> (/Volumes/jafeer - Data/System/Testing/smarttest/test/specs/onlineCalculator.spec.js:8:19)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

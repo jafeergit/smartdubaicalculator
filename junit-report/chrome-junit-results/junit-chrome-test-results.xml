@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Calculator_Application" timestamp="2021-08-02T16:03:15" time="78.8" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Calculator Application"/>
+      <property name="capabilities" value="chrome.92_0_4515_107.macosx"/>
+      <property name="file" value="./test/specs/onlineCalculator.spec.js"/>
+    </properties>
+    <testcase classname="chrome.92_0_4515_107.macosx.Calculator_Application" name="Perform_a_subtraction_operation" time="78.792"/>
+  </testsuite>
+</testsuites>

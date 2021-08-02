@@ -1,0 +1,30 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1627902215816' stop='1627902390083'>
+    <name>Calculator Application</name>
+    <title>Calculator Application</title>
+    <test-cases>
+        <test-case start='1627902215817' status='broken' stop='1627902390082'>
+            <name>Perform a subtraction operation</name>
+            <title>Perform a subtraction operation</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='fe77be91-6a18-4c60-8047-fcbea574abbb-attachment.png' type='image/png' size='466841'/>
+            </attachments>
+            <failure>
+                <message>Can't call click on element with selector "#newwssas" because element wasn't found</message>
+                <stack-trace>Error: Can't call click on element with selector "#newwssas" because element wasn't found
+                    at Function.click (/Volumes/jafeer - Data/System/Testing/smarttest/support/utils/Driver.Extension.js:7:18)
+                    at CalcPage.clickCalcButton (/Volumes/jafeer - Data/System/Testing/smarttest/test/pages/calc.page.js:18:21)
+                    at Context.&lt;anonymous> (/Volumes/jafeer - Data/System/Testing/smarttest/test/specs/onlineCalculator.spec.js:9:19)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

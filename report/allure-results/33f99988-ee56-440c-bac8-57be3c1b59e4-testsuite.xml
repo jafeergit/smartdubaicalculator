@@ -1,0 +1,31 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1627901117493' stop='1627901165620'>
+    <name>Calculator Application</name>
+    <title>Calculator Application</title>
+    <test-cases>
+        <test-case start='1627901117494' status='broken' stop='1627901165619'>
+            <name>Perform a subtraction operation</name>
+            <title>Perform a subtraction operation</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='4c850b03-aefc-4abc-bd45-09501ecc9ef9-attachment.png' type='image/png' size='476926'/>
+            </attachments>
+            <failure>
+                <message>Options must be an object</message>
+                <stack-trace>TypeError: Options must be an object
+                    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+                    at Function.moveIntoClick (/Volumes/jafeer - Data/System/Testing/smarttest/support/utils/Driver.Extension.js:18:18)
+                    at CalcPage.clickCalcButton (/Volumes/jafeer - Data/System/Testing/smarttest/test/pages/calc.page.js:14:21)
+                    at Context.&lt;anonymous> (/Volumes/jafeer - Data/System/Testing/smarttest/test/specs/onlineCalculator.spec.js:9:19)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
